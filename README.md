@@ -27,10 +27,6 @@ Each day contains:
 
 <details>
 <summary>Click to expand</summary>
-## 🗂️ Project Structure
-
-<details>
-<summary>Click to expand</summary>
 ```plaintext
 100-days-of-code-python-bootcamp/
 ├── day01/                         # Band Name Generator
@@ -64,7 +60,6 @@ Each day contains:
 │   └── ...
 ├── .gitignore
 └── README.md
-
 </details>
 
 🟢 GitHub Pages Live Demos:  
