@@ -27,7 +27,7 @@ Each day contains:
 
 <details>
 <summary>Click to expand</summary>
-
+```plaintext
 100-days-of-code-python-bootcamp/
 ├── day01/                         # Band Name Generator
 │   ├── band_name_generator.py
@@ -60,9 +60,7 @@ Each day contains:
 │   └── ...
 ├── .gitignore
 └── README.md                      # This file!
-
 </details>
-
 
 🟢 GitHub Pages Live Demos:  
 [https://KendallCW.github.io/100-days-of-code-python-bootcamp](https://KendallCW.github.io/100-days-of-code-python-bootcamp)
