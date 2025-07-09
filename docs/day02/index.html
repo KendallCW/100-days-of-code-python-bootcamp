@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Day 02 – Tip Calculator</title>
+  <link rel="stylesheet" href="../style.css" />
+</head>
+<body>
+  <main>
+    <h1>💰 Day 02 – Tip Calculator</h1>
+
+    <p>This interactive tool helps you split a restaurant bill fairly based on a custom tip percentage. Just enter your details below!</p>
+
+    <h2>🧮 How It Works</h2>
+    <ol>
+      <li>Enter the total bill amount.</li>
+      <li>Choose a tip percentage.</li>
+      <li>Tell us how many people are splitting the bill.</li>
+      <li>See how much each person needs to pay!</li>
+    </ol>
+
+    <form id="tipForm">
+      <label for="bill">💵 Total bill ($)</label>
+      <input type="number" id="bill" step="0.01" min="0" required />
+
+      <label for="tip">💸 Tip percentage (%)</label>
+      <input type="number" id="tip" step="1" min="0" required />
+
+      <label for="people">🧑‍🤝‍🧑 Number of people</label>
+      <input type="number" id="people" step="1" min="1" required />
+
+      <button type="submit">Calculate</button>
+    </form>
+
+    <div id="result" style="margin-top: 2rem; font-weight: bold;"></div>
+
+    <footer style="margin-top: 3rem;">
+      <p>
+        Back to <a href="../index.html">Home</a> |
+        View Python Code on <a href="https://github.com/KendallCW/100-days-of-code-python-bootcamp/blob/main/day02/day02.py">GitHub</a>
+      </p>
+      <p style="margin-top: 0.5rem;">
+        Made with ❤️ by <a href="https://github.com/KendallCW" target="_blank">Kendall</a>
+      </p>
+    </footer>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
