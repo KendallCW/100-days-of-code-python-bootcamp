@@ -10,12 +10,25 @@
   <main>
     <h1>🎸 Day 01 – Band Name Generator</h1>
 
-    <form id="bandForm">
-      <label for="city">🌆 Which city did you grow up in?</label>
-      <input type="text" id="city" name="city" required />
+    <p>This playful project was the very first step into Python. It asks a couple of questions—your city and your pet’s name—and blends them together to suggest a band name. A great way to explore user input and string manipulation in a fun way!</p>
+
+    <h2>💡 How It Works</h2>
+    <ol>
+      <li>It greets the user with a welcome message.</li>
+      <li>Asks which city they grew up in.</li>
+      <li>Then it asks for the name of their pet.</li>
+      <li>Finally, it combines both to reveal a custom band name.</li>
+    </ol>
+
+    <h2>🧪 Try It Yourself</h2>
+    <p><em>Interactive exercise — give it a go below!</em></p>
+
+    <form id="bandForm" style="margin-top: 1.5rem;">
+      <label for="city">🌆 What’s the name of the city you grew up in?</label>
+      <input type="text" id="city" name="city" placeholder="e.g. Tokyo" required />
 
       <label for="pet">🐶 What is the name of your pet?</label>
-      <input type="text" id="pet" name="pet" required />
+      <input type="text" id="pet" name="pet" placeholder="e.g. Neko" required />
 
       <button type="submit">Generate Band Name</button>
     </form>
