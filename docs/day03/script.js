@@ -5,22 +5,31 @@ const result = document.getElementById("result");
 
 let step = 0; // Track which decision we’re on
 
-// Scene descriptions – show once per step
+// Updated scenes to include visible choices
 const scenes = [
-  "You step into a misty cave.\nTwo paths lie ahead—one lit faintly to the left, the other swallowed in darkness to the right.",
-  "A silent black lake stretches out before you.\nA rickety dock creaks under your feet.",
-  "⚔️ The corridor narrows and opens into a chamber shimmering with golden light.\nThree doors appear: one blue, one red, one yellow.\nOr you can ignore them and walk deeper into the shimmer."
+  `You step into a misty cave.\n
+Two paths lie ahead—one lit faintly to the left, the other swallowed in darkness to the right.\n
+👉 Options: 'left' or 'right'`,
+
+  `A silent black lake stretches out before you.\n
+A rickety dock creaks under your feet as mist rises from the water.\n
+👉 Options: 'wait' or 'swim'`,
+
+  `⚔️ The corridor narrows into a chamber shimmering with golden light.\n
+Three doors stand before you:\n
+🟦 Blue   🔥 Red   💛 Yellow  🚶 Walk deeper into the shimmer.\n
+👉 Options: 'blue', 'red', 'yellow', or 'walk'`
 ];
 
-// Initialize first scene
+// Display the first scene
 scene.textContent = scenes[0];
 
 form.addEventListener("submit", function (e) {
   e.preventDefault();
   const choice = input.value.toLowerCase().trim();
-  input.value = ""; // Clear input
+  input.value = "";
 
-  // Step 1: Left or Right
+  // First decision
   if (step === 0) {
     if (choice === "left") {
       scene.textContent = scenes[1];
@@ -30,12 +39,12 @@ form.addEventListener("submit", function (e) {
       result.textContent = "🕳️ You plummet into a hidden pit. Game Over.";
       form.style.display = "none";
     } else {
-      result.textContent = "⚠️ Choose 'left' or 'right'.";
+      result.textContent = "⚠️ Choose either 'left' or 'right'.";
     }
     return;
   }
 
-  // Step 2: Wait or Swim
+  // Second decision
   if (step === 1) {
     if (choice === "wait") {
       scene.textContent = scenes[2];
@@ -45,12 +54,12 @@ form.addEventListener("submit", function (e) {
       result.textContent = "🐟 Something grabs your leg. Game Over.";
       form.style.display = "none";
     } else {
-      result.textContent = "⚠️ Choose 'wait' or 'swim'.";
+      result.textContent = "⚠️ Choose either 'wait' or 'swim'.";
     }
     return;
   }
 
-  // Step 3: Door selection
+  // Final decision
   if (step === 2) {
     if (choice === "yellow") {
       result.textContent = "🏆 You found the treasure! You Win!";
