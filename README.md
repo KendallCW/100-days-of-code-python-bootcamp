@@ -27,12 +27,16 @@ Each day contains:
 
 <details>
 <summary>Click to expand</summary>
+## 🗂️ Project Structure
+
+<details>
+<summary>Click to expand</summary>
 ```plaintext
 100-days-of-code-python-bootcamp/
 ├── day01/                         # Band Name Generator
 │   ├── band_name_generator.py
 │   ├── README.md
-│   └── assets/                    # (Optional) images or extras
+│   └── assets/
 ├── day02/                         # Tip Calculator
 │   ├── tip_calculator.py
 │   ├── README.md
@@ -43,9 +47,9 @@ Each day contains:
 ├── day04/                         # Rock, Paper, Scissors
 │   ├── rock_paper_scissors.py
 │   └── README.md
-├── docs/                          # GitHub Pages live demos
-│   ├── index.html                 # Homepage linking all demos
-│   ├── style.css                  # (Global styles if desired)
+├── docs/
+│   ├── index.html
+│   ├── style.css
 │   ├── day01/
 │   │   ├── index.html
 │   │   ├── script.js
@@ -59,7 +63,8 @@ Each day contains:
 │   │   └── script.js
 │   └── ...
 ├── .gitignore
-└── README.md                      # This file!
+└── README.md
+
 </details>
 
 🟢 GitHub Pages Live Demos:  
