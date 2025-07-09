@@ -39,4 +39,7 @@ Each day contains:
 
 ---
 
+📄 This repository is for personal learning purposes. Code is based on the [100 Days of Code Python Bootcamp](https://www.udemy.com/course/100-days-of-code/).  
+🧠 Contributions, feedback, and fox emojis are always welcome!
+
 > 🦊 “Write code that tells a story—even if it's a wild fox adventure.”
