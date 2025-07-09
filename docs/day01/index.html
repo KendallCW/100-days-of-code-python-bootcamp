@@ -9,28 +9,26 @@
 <body>
   <main>
     <h1>🎸 Day 01 – Band Name Generator</h1>
-    <p>This quirky little program helps you generate a band name based on your hometown and your pet’s name. It’s a fun way to get started with Python input/output and string formatting!</p>
 
-    <h2>💡 How It Works</h2>
-    <ol>
-      <li>User is greeted with a welcome message.</li>
-      <li>They're asked which city they grew up in.</li>
-      <li>They're asked for the name of their pet.</li>
-      <li>The program combines the two to suggest a band name.</li>
-    </ol>
+    <form id="bandForm">
+      <label for="city">🌆 Which city did you grow up in?</label>
+      <input type="text" id="city" name="city" required />
 
-    <h2>🧪 Try It Yourself</h2>
-    <p><em>This demo is a static preview of the project’s logic.</em></p>
-    <pre><code>
-👋 Greetings, Stranger!
-🌆 Which city did you grow up in? → Tokyo  
-🐶 What is the name of your pet? → Neko  
-🎤 Your band name could be: Tokyo Neko
-    </code></pre>
+      <label for="pet">🐶 What is the name of your pet?</label>
+      <input type="text" id="pet" name="pet" required />
 
-    <footer>
-      <p>Back to <a href="../index.html">Home</a> | View on <a href="https://github.com/KendallCW/100-days-of-code-python-bootcamp/tree/main/day01" target="_blank">GitHub</a></p>
+      <button type="submit">Generate Band Name</button>
+    </form>
+
+    <div id="result" style="margin-top: 2rem; font-weight: bold;"></div>
+
+    <footer style="margin-top: 3rem;">
+      <p>Back to <a href="../index.html">Home</a> | View on 
+        <a href="https://github.com/KendallCW/100-days-of-code-python-bootcamp/tree/main/day01" target="_blank">GitHub</a>
+      </p>
     </footer>
   </main>
+
+  <script src="script.js"></script>
 </body>
 </html>
