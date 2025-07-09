@@ -44,27 +44,24 @@ Each day contains:
 ├── day04/                         # Rock, Paper, Scissors
 │   ├── rock_paper_scissors.py
 │   └── README.md
-├── docs/
-│   ├── index.html
-│   ├── style.css
+├── docs/                          # GitHub Pages live demos
+│   ├── index.html                 # Homepage linking all demos
+│   ├── style.css                  # Global stylesheet for all demos
 │   ├── day01/
 │   │   ├── index.html
-│   │   ├── script.js
-│   │   └── style.css
+│   │   └── script.js
 │   ├── day02/
 │   │   ├── index.html
-│   │   ├── script.js
-│   │   └── style.css
+│   │   └── script.js
 │   ├── day03/
 │   │   ├── index.html
 │   │   └── script.js
 │   └── ...
 ├── .gitignore
-└── README.md
+└── README.md                      # This file!
 </pre>
 
 </details>
-
 
 🟢 GitHub Pages Live Demos:  
 [https://KendallCW.github.io/100-days-of-code-python-bootcamp](https://KendallCW.github.io/100-days-of-code-python-bootcamp)
