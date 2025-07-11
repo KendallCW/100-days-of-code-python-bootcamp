@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Day 04 – Rock, Paper, Scissors</title>
+  <link rel="stylesheet" href="../style.css" />
+</head>
+<body>
+  <main>
+    <h1>🎮 Day 04 – Rock, Paper, Scissors</h1>
+
+    <p>Choose your weapon and face the fate of digital destiny. Best of luck, warrior! 🤖⚔️</p>
+
+    <form id="gameForm" style="margin-top: 1rem;">
+      <label for="choiceInput">Your move (rock, paper, or scissors):</label>
+      <input type="text" id="choiceInput" name="choice" required autocomplete="off" placeholder="e.g. rock" />
+      <button type="submit">Play</button>
+    </form>
+
+    <div id="displayArea" style="margin-top: 2rem;"></div>
+
+    <form id="playAgainForm" style="margin-top: 1.5rem; display: none;">
+      <p>Do you want to play another round?</p>
+      <button type="submit" name="playAgain" value="yes">Yes</button>
+      <button type="submit" name="playAgain" value="no">No</button>
+    </form>
+
+    <footer style="margin-top: 3rem;">
+      <p>
+        Back to <a href="../index.html">Home</a> |
+        View Python Code on <a href="https://github.com/KendallCW/100-days-of-code-python-bootcamp/blob/main/days/day04/day04.py">GitHub</a>
+      </p>
+      <p style="margin-top: 0.5rem;">
+        Made with ❤️ by <a href="https://github.com/KendallCW" target="_blank">Kendall</a>
+      </p>
+    </footer>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
