@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Day 08 – Caesar Cipher</title>
+  <link rel="stylesheet" href="../style.css" />
+</head>
+<body>
+  <main>
+    <h1>🔐 Day 08 – Caesar Cipher</h1>
+    <p>Encode or decode your messages using the classic Caesar technique.</p>
+
+    <form id="cipherForm" style="margin-top: 1rem;">
+      <label for="direction">Direction:</label>
+      <select id="direction">
+        <option value="encode">Encode</option>
+        <option value="decode">Decode</option>
+      </select>
+
+      <label for="text">Message:</label>
+      <textarea id="text" rows="3" required placeholder="Type your message..."></textarea>
+
+      <label for="shift">Shift Amount:</label>
+      <input type="number" id="shift" min="1" required placeholder="e.g., 3" />
+
+      <button type="submit" style="margin-top: 1rem;">Run Cipher</button>
+    </form>
+
+    <div id="output" style="margin-top: 2rem; font-weight: bold;"></div>
+
+    <footer style="margin-top: 3rem;">
+      <p>
+        Back to <a href="../index.html">Home</a> |
+        View Python Code on <a href="https://github.com/KendallCW/100-days-of-code-python-bootcamp/blob/main/days/day08/main.py">GitHub</a>
+      </p>
+      <p style="margin-top: 0.5rem;">
+        Made with ❤️ by <a href="https://github.com/KendallCW" target="_blank">Kendall</a>
+      </p>
+    </footer>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
