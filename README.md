@@ -13,13 +13,21 @@ Each day contains:
 
 ## 🧠 Progress Tracker
 
+<details>
+<summary>Click to expand</summary>
+
+<pre>
 | Day | Topic                         | Status         |
 |-----|-------------------------------|----------------|
 | 1   | Band Name Generator           | ✅ Completed   |
 | 2   | Tip Calculator                | ✅ Completed   |
 | 3   | Treasure Island Game          | ✅ Completed   |
-| 4   | Rock, Paper, Scissors         | 🟨 In Progress |
+| 4   | Rock, Paper, Scissors         | ✅ Completed   |
+| 5   | Password Generator            | ✅ Completed   |
 | ... | More coming daily             | 🔜 Stay tuned  |
+</pre>
+
+</details>
 
 ---
 
