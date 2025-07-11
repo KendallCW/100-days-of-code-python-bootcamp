@@ -29,7 +29,7 @@ Each day contains:
 | ... | More coming daily             | 🔜 Stay tuned  |
 </pre>
 
-</details>\
+</details>
 
 ---
 
