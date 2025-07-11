@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Day 05 – Password Generator</title>
+  <link rel="stylesheet" href="../style.css" />
+</head>
+<body>
+  <main>
+    <h1>🔐 Day 05 – Password Generator</h1>
+
+    <p>Choose your password ingredients and let randomness do the magic ✨</p>
+
+    <form id="passwordForm" style="margin-top: 1rem;">
+      <label for="letters">Number of letters:</label>
+      <input type="number" id="letters" name="letters" min="0" required />
+
+      <label for="symbols">Number of symbols:</label>
+      <input type="number" id="symbols" name="symbols" min="0" required />
+
+      <label for="numbers">Number of numbers:</label>
+      <input type="number" id="numbers" name="numbers" min="0" required />
+
+      <fieldset style="margin-top: 1rem;">
+        <legend>Select difficulty:</legend>
+        <label><input type="radio" name="mode" value="easy" checked /> Easy</label>
+        <label><input type="radio" name="mode" value="hard" /> Hard</label>
+      </fieldset>
+
+      <button type="submit" style="margin-top: 1rem;">Generate Password</button>
+    </form>
+
+    <div id="result" style="margin-top: 2rem; font-weight: bold;"></div>
+
+    <footer style="margin-top: 3rem;">
+      <p>
+        Back to <a href="../index.html">Home</a> |
+        View Python Code on <a href="https://github.com/KendallCW/100-days-of-code-python-bootcamp/blob/main/days/day05/day05.py">GitHub</a>
+      </p>
+      <p style="margin-top: 0.5rem;">
+        Made with ❤️ by <a href="https://github.com/KendallCW" target="_blank">Kendall</a>
+      </p>
+    </footer>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
