@@ -1,4 +1,4 @@
-# 🧪 Password Generator Project
+# 🔒 Password Generator Project
 # Day 05 of 100 Days of Code – Python Bootcamp
 
 import random
