@@ -24,6 +24,7 @@ Each day contains:
 | 3   | Treasure Island Game          | ✅ Completed   |
 | 4   | Rock, Paper, Scissors         | ✅ Completed   |
 | 5   | Password Generator            | ✅ Completed   |
+| 6   | Phrase Composer               | ✅ Completed   |
 | ... | More coming daily             | 🔜 Stay tuned  |
 </pre>
 
@@ -51,10 +52,18 @@ Each day contains:
 │   └── README.md
 ├── day04/                         # Rock, Paper, Scissors
 │   ├── rock_paper_scissors.py
+│   ├── art.py
+│   └── README.md
+├── day05/                         # Password Generator
+│   ├── day05.py
+│   ├── data.py
+│   └── README.md
+├── day06/                         # Phrase Composer
+│   ├── day06.py
 │   └── README.md
 ├── docs/                          # GitHub Pages live demos
 │   ├── index.html                 # Homepage linking all demos
-│   ├── style.css                  # Global stylesheet for all demos
+│   ├── style.css                  # Global stylesheet
 │   ├── day01/
 │   │   ├── index.html
 │   │   └── script.js
@@ -64,7 +73,15 @@ Each day contains:
 │   ├── day03/
 │   │   ├── index.html
 │   │   └── script.js
-│   └── ...
+│   ├── day04/
+│   │   ├── index.html
+│   │   └── script.js
+│   ├── day05/
+│   │   ├── index.html
+│   │   └── script.js
+│   ├── day06/
+│   │   ├── index.html
+│   │   └── script.js
 ├── .gitignore
 └── README.md                      # This file!
 </pre>
