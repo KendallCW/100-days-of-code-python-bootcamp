@@ -26,6 +26,7 @@ Each day contains:
 | 5   | Password Generator            | ✅ Completed   |
 | 6   | Phrase Composer               | ✅ Completed   |
 | 7   | Hangman Game                  | ✅ Completed   |
+| 8   | Caesar Cipher                 | ✅ Completed   |
 | ... | More coming daily             | 🔜 Stay tuned  |
 </pre>
 
@@ -59,6 +60,9 @@ Each day contains:
 │   ├── game.py
 │   ├── hangman_art.py
 │   └── hangman_words.py
+├── day08/                         # Caesar Cipher
+│   ├── main.py
+│   └── art.py
 ├── docs/                          # GitHub Pages live demos
 │   ├── index.html                 # Homepage linking all demos
 │   ├── style.css                  # Global stylesheet
@@ -81,6 +85,9 @@ Each day contains:
 │   │   ├── index.html
 │   │   └── script.js
 │   ├── day07/
+│   │   ├── index.html
+│   │   └── script.js
+│   ├── day08/
 │   │   ├── index.html
 │   │   └── script.js
 ├── .gitignore
