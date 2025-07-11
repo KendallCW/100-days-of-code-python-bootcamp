@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Day 07 – Hangman Game</title>
+  <link rel="stylesheet" href="../style.css" />
+</head>
+<body>
+  <main>
+    <h1>🎯 Day 07 – Hangman Game</h1>
+    <p>Guess the word one letter at a time before the stick figure meets its doom!</p>
+
+    <div id="gameArea">
+      <p id="display" style="font-size: 1.5rem; letter-spacing: 0.3rem;"></p>
+      <p id="livesDisplay">❤️ Lives Left: <span id="livesCount"></span></p>
+      <p id="guessedLetters">🔠 Guessed: <span id="guessedList"></span></p>
+
+      <form id="guessForm">
+        <label for="guessInput">Guess a letter:</label>
+        <input type="text" id="guessInput" maxlength="1" required autocomplete="off"/>
+        <button type="submit">Submit</button>
+      </form>
+
+      <pre id="hangmanStage" style="margin-top: 2rem;"></pre>
+      <p id="endMessage" style="margin-top: 1rem; font-weight: bold;"></p>
+    </div>
+
+    <footer style="margin-top: 3rem;">
+      <p>
+        Back to <a href="../index.html">Home</a> |
+        View Python Code on <a href="https://github.com/KendallCW/100-days-of-code-python-bootcamp/blob/main/days/day07/main.py">GitHub</a>
+      </p>
+      <p style="margin-top: 0.5rem;">
+        Made with ❤️ by <a href="https://github.com/KendallCW" target="_blank">Kendall</a>
+      </p>
+    </footer>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
