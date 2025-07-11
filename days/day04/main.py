@@ -62,6 +62,6 @@ def play_game():
         if not ask_play_again():
             break
 
-# ▶️ Start game only if script is run directly
+# Start game only if script is run directly
 if __name__ == "__main__":
     play_game()
