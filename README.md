@@ -25,10 +25,11 @@ Each day contains:
 | 4   | Rock, Paper, Scissors         | ✅ Completed   |
 | 5   | Password Generator            | ✅ Completed   |
 | 6   | Phrase Composer               | ✅ Completed   |
+| 7   | Hangman Game                  | ✅ Completed   |
 | ... | More coming daily             | 🔜 Stay tuned  |
 </pre>
 
-</details>
+</details>\
 
 ---
 
@@ -40,27 +41,24 @@ Each day contains:
 <pre>
 100-days-of-code-python-bootcamp/
 ├── day01/                         # Band Name Generator
-│   ├── band_name_generator.py
-│   ├── README.md
-│   └── assets/
+│   └── main.py
 ├── day02/                         # Tip Calculator
-│   ├── tip_calculator.py
-│   ├── README.md
-│   └── assets/
+│   └── main.py
 ├── day03/                         # Treasure Island Game
-│   ├── treasure_island.py
-│   └── README.md
+│   └── main.py
 ├── day04/                         # Rock, Paper, Scissors
-│   ├── rock_paper_scissors.py
-│   ├── art.py
-│   └── README.md
+│   ├── main.py
+│   └── art.py
 ├── day05/                         # Password Generator
-│   ├── day05.py
-│   ├── data.py
-│   └── README.md
+│   ├── main.py
+│   └── data.py
 ├── day06/                         # Phrase Composer
-│   ├── day06.py
-│   └── README.md
+│   └── main.py
+├── day07/                         # Hangman Game
+│   ├── main.py
+│   ├── game.py
+│   ├── hangman_art.py
+│   └── hangman_words.py
 ├── docs/                          # GitHub Pages live demos
 │   ├── index.html                 # Homepage linking all demos
 │   ├── style.css                  # Global stylesheet
@@ -80,6 +78,9 @@ Each day contains:
 │   │   ├── index.html
 │   │   └── script.js
 │   ├── day06/
+│   │   ├── index.html
+│   │   └── script.js
+│   ├── day07/
 │   │   ├── index.html
 │   │   └── script.js
 ├── .gitignore
